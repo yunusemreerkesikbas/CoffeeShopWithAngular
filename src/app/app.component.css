@@ -1,0 +1,31 @@
+.container-fluid{
+    
+    min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.container-fluid .wrapper img {
+    max-width: 100%;
+    height: auto;}
+
+/* .home .content{
+    max-width: 60rem;
+    
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#2C2C74;
+    justify-content:right;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#2C2C74;
+} */
