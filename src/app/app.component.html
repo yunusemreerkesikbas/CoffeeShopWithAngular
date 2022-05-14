@@ -1,14 +1,40 @@
-<div>
-  <app-nav></app-nav>
-</div>
-<section class="banner">
-  <owl-carousel-o [options]="bannerSlider">
-    <ng-template carouselSlide>
-      <img src="../assets/images/home-img.jpg" alt="">
-    </ng-template>
-    <ng-template carouselSlide>
-      <img src="../assets/images/home-img.jpg" alt="">
-    </ng-template>
+<body>
+  <div>
+    <app-nav></app-nav>
+  </div>
+  <section class="banner">
+    <owl-carousel-o [options]="bannerSlider">
+      <ng-template carouselSlide>
+        <img src="../assets/images/home-img.png" alt="">
+      </ng-template>
+      <ng-template carouselSlide>
+        <img src="../assets/images/home-img-2.png" alt="">
+      </ng-template>
 
-  </owl-carousel-o>
-</section>
+    </owl-carousel-o>
+  </section>
+  <section class="about" id="about">
+    <div class="about-text">
+      <h3 class="heading"> <span>hakkımızda</span>  </h3>
+    </div>
+    
+
+    <div class="row">
+
+      <div class="image">
+        <img src="../assets/images/about.png" alt="">
+      </div>
+
+      <div class="content">
+        <h3>what makes our coffee special?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga
+          alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas
+          culpa! Neque consectetur obcaecati sapiente?</p>
+        
+      </div>
+
+    </div>
+
+  </section>
+</body>

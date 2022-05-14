@@ -83,6 +83,7 @@ section {
     padding: 0;
     width: 100%;
     height: auto;
+    margin-top: 50px;
 }
 .banner .owl-prev, .banner .owl-next{
     width: 110px;
