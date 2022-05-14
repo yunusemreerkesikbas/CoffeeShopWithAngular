@@ -1,23 +1,14 @@
-<body>
+<div>
   <app-nav></app-nav>
-  <br>  
-  <section class="home" id="home">
+</div>
+<section class="banner">
+  <owl-carousel-o [options]="bannerSlider">
+    <ng-template carouselSlide>
+      <img src="../assets/images/home-img.jpg" alt="">
+    </ng-template>
+    <ng-template carouselSlide>
+      <img src="../assets/images/home-img.jpg" alt="">
+    </ng-template>
 
-    <div class="container-fluid">       
-      <ngb-carousel>
-        <ng-template ngbSlide *ngFor="let image of images">
-          <div class="wrapper">
-            <img [src]="image.src" alt="Random first slide" style="object-fit:scale-down">
-          </div>
-          <div class="carousel-caption">
-            <h3>{{ image.title }}</h3>
-            
-          </div>
-        </ng-template>
-      </ngb-carousel>
-           
-      </div>>
-  </section>
-  
-
-</body>
+  </owl-carousel-o>
+</section>

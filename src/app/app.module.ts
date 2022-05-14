@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { ServicesComponent } from './services/services.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -23,6 +24,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
+    CarouselModule,
     
   ],
   providers: [],
