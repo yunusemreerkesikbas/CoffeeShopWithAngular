@@ -2,3 +2,10 @@
 .logo img {
     height: 5rem;
 }
+/* .navbar .navbar-expand-lg .navbar-light .bg-light{
+    height: 500px;
+} */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 83%;
+  
+}

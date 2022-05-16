@@ -1,8 +1,7 @@
 <body>
-  <div>
-    <app-nav></app-nav>
-  </div>
-  <section class="banner">
+  <app-nav></app-nav>
+
+  <section class="banner" id="home">
     <owl-carousel-o [options]="bannerSlider">
       <ng-template carouselSlide>
         <img src="../assets/images/home-img.png" alt="">
@@ -13,12 +12,11 @@
 
     </owl-carousel-o>
   </section>
+
   <section class="about" id="about">
     <div class="about-text">
-      <h3 class="heading"> <span>hakkımızda</span>  </h3>
+      <h3 class="heading"> <span>hakkımızda</span> </h3>
     </div>
-    
-
     <div class="row">
 
       <div class="image">
@@ -31,10 +29,12 @@
           alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas
           culpa! Neque consectetur obcaecati sapiente?</p>
-        
+
       </div>
 
     </div>
 
   </section>
+  <router-outlet></router-outlet>
+
 </body>

@@ -9,22 +9,32 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
-
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule,ReactiveFormsModule } from "@angular/forms";
+import { ProductFilterPipe } from './product/product-filter.pipe';
+import { ActivatedRoute } from '@angular/router';
+import { AppRoutingModule } from './app-routing-module';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     ProductComponent,
     CategoryComponent,
     NavComponent,
     ServicesComponent,
-
-  ],
+    ProductFilterPipe,
+    BannerComponent
+   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
     CarouselModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule
     
   ],
   providers: [],
