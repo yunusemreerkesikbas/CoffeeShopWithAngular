@@ -4,58 +4,18 @@
 
 /*  */
 
-* {
-    font-family: 'Mulish', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
-    
-}
 
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
-}
 
-html::-webkit-scrollbar {
-    width: .8rem;
-}
-
-html::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: #fff;
-    border-radius: 5rem;
-}
-
-body {
-    background: #fff;
-    padding: 0;
-    margin: 0;
-    background: #eee;
-}
-
-section {
-    padding: 2rem 7%;
-}
-
-.banner{
+.banner {
     position: relative;
     padding: 0;
     width: 100%;
     height: auto;
     margin-top: 50px;
 }
-.banner .owl-prev, .banner .owl-next{
+
+.banner .owl-prev,
+.banner .owl-next {
     width: 110px;
     height: 110px;
     position: absolute;
@@ -66,14 +26,16 @@ section {
     transition: .3s all ease;
 }
 
-.banner .owl-prev{
-left: 10px;
+.banner .owl-prev {
+    left: 10px;
 }
 
-.banner .owl-next{
+.banner .owl-next {
     right: -60px;
 }
-.banner .owl-prev::before, .banner .owl-next::before{
+
+.banner .owl-prev::before,
+.banner .owl-next::before {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -83,51 +45,29 @@ left: 10px;
     content: '';
     border-radius: 50%;
 }
-.banner .owl-prev::before{
+
+.banner .owl-prev::before {
     left: 44px;
 }
-.banner .owl-next::before{
+
+.banner .owl-next::before {
     right: -106px;
 }
 
-.banner .owl-prev i, .banner .owl-next i {
+.banner .owl-prev i,
+.banner .owl-next i {
     font-size: 20px;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
 
 }
-.banner .owl-next i{
+
+.banner .owl-next i {
     right: 0%;
 }
-.banner .owl-prev:hover::before, .banner .owl-next:hover::before{
+
+.banner .owl-prev:hover::before,
+.banner .owl-next:hover::before {
     background: #ff4000 !important;
 }
-
-.heading {
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    padding-bottom: 3.5rem;
-    font-size: 4rem;
-}
-
-.heading span {
-    color: var(--main-color);
-    text-transform: uppercase;
-}
-
-.btn {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: .9rem 3rem;
-    font-size: 1.7rem;
-    color: #fff;
-    background: var(--main-color);
-    cursor: pointer;
-}
-
-.btn:hover {
-    letter-spacing: .2rem;
-}
-
