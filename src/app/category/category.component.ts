@@ -15,6 +15,7 @@ export class CategoryComponent implements OnInit {
   ) { }
   title = "Kategori Listesi";
   categories : Category[];
+  
 
   ngOnInit():void {
     this.categoryService.getCategories().subscribe(data => {

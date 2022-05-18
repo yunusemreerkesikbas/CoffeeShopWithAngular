@@ -10,22 +10,24 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { HttpClientModule } from "@angular/common/http";
-import { FormsModule,ReactiveFormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { ProductFilterPipe } from './product/product-filter.pipe';
 import { ActivatedRoute } from '@angular/router';
 import { AppRoutingModule } from './app-routing-module';
 import { BannerComponent } from './banner/banner.component';
+import { ClientComponent } from './client/client.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     ProductComponent,
     CategoryComponent,
     NavComponent,
     ServicesComponent,
     ProductFilterPipe,
-    BannerComponent
-   ],
+    BannerComponent,
+    ClientComponent
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -35,7 +37,7 @@ import { BannerComponent } from './banner/banner.component';
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

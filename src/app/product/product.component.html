@@ -1,11 +1,8 @@
-<!-- ngIf ile ürün varsa gelir -->
-<!-- <h3 *ngIf="products; else: noProduct"> {{title}} </h3> -->
-
 <div class="product-text">
   <h3 class="heading"> <span>ürünlerimiz</span> </h3>
 </div>
 
-<app-category></app-category>
+
 <div class="form-group">
   <input class="form-control" id="productName" placeholder="Ürün Ara" [(ngModel)]="filterText">
   <small *ngIf="filterText" class="form-text">Şu an <strong>{{filterText}}</strong> aradınız </small>
@@ -28,4 +25,6 @@
     </div>
   </div>
 
+
 </div>
+<app-category></app-category>

@@ -12,17 +12,18 @@ export class ProductService {
     private http: HttpClient
   ) { }
   path = "http://localhost:3000/products"
-  getProducts(categoryId: any):Observable<Product[]> {
+  getProducts(categoryId: any):Observable<Product[]>{
     
     let newPath = this.path;
     if (categoryId) {
-      newPath += "?categoryId" + categoryId
+      newPath += "?categoryId="+ categoryId
     }
+
     return this.http
-      .get<Product[]>(newPath).pipe(
-        tap(data => (JSON.stringify(data))),
-        catchError(this.handleError)
-      );
+    .get<Product[]>(newPath).pipe(
+      tap(data => console.log(JSON.stringify(data))),
+      catchError(this.handleError)
+    );
   }
 
   handleError(err: HttpErrorResponse) {

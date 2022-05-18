@@ -1,38 +1,53 @@
-.row{
+.row {
     display: flex;
     flex-direction: row;
+    padding-left: 5rem;
 }
-.productbox{
+
+.productbox {
     padding: 15px;
-    margin:10px 50px;
+    margin: 10px 20px;
     height: 300px;
-    
+    border: 2px solid red;
+
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
     
 }
-.productbox .ng-star-inserted{
+.productbox .heading h3 {
+    text-align: center !important;
+}
+
+.productbox .ng-star-inserted {
     transition: 300ms;
 }
-.productbox .ng-star-inserted:hover{
+
+.productbox .ng-star-inserted:hover {
     width: 15.1rem;
     height: 15.1rem;
 }
-img{
+
+img {
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
+
 .heading {
     padding: 0;
-    font-size: 4rem;
+    font-size: 3rem;
+    text-align: center;
 
 }
 
 .heading span {
     color: rgb(64, 64, 64);
     text-transform: uppercase;
-    
 
 }
+
 main {
     display: flex;
     flex-wrap: nowrap;
@@ -123,3 +138,5 @@ main {
 .lh-tight {
     line-height: 1.25;
 }
+
+

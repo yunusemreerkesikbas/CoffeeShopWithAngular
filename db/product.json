@@ -1,88 +1,108 @@
 {
-    "products":[
+    "products": [
         {
-            "id":1,
-            "name":"Antep Fıstığı",
+            "id": 1,
+            "name": "Antep Fıstığı",
             "price": 150,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://st1.myideasoft.com/idea/gj/33/myassets/products/281/ard-8688.jpg?revision=1599130875"
+            "imageUrl": "https://st1.myideasoft.com/idea/gj/33/myassets/products/281/ard-8688.jpg?revision=1599130875"
         },
         {
-            "id":2,
-            "name":"Fındık",
+            "id": 2,
+            "name": "Fındık",
             "price": 130,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://www.makbul.com/Content/global/images/products/1/133/ORG-kavrulmus-findik-kg47.jpg"
+            "imageUrl": "https://www.makbul.com/Content/global/images/products/1/133/ORG-kavrulmus-findik-kg47.jpg"
         },
         {
-            "id":3,
-            "name":"Kabuklu Fındık",
+            "id": 3,
+            "name": "Kabuklu Fındık",
             "price": 100,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://i.dunya.com/storage/files/images/2021/05/05/findik-0235-qULf_cover.jpg"
-            
+            "imageUrl": "https://i.dunya.com/storage/files/images/2021/05/05/findik-0235-qULf_cover.jpg"
         },
         {
-            "id":3,
-            "name":"Espresso",
+            "id": 3,
+            "name": "Espresso",
             "price": 150,
-            "categoryId":2,
+            "categoryId": 2,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://seyler.ekstat.com/img/max/800/z/zuVcx1ycABGnpYb3-636880859133845398.jpg"
+            "imageUrl": "https://seyler.ekstat.com/img/max/800/z/zuVcx1ycABGnpYb3-636880859133845398.jpg"
         },
         {
-            "id":4,
-            "name":"Kahve",
+            "id": 4,
+            "name": "Kahve",
             "price": 120,
-            "categoryId":2,
+            "categoryId": 2,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"http://www.citlekci.com.tr/Uploads/UrunResimleri/buyuk/turk-kahvesi--kahve-8b75.png"
+            "imageUrl": "http://www.citlekci.com.tr/Uploads/UrunResimleri/buyuk/turk-kahvesi--kahve-8b75.png"
         },
         {
-            "id":5,
-            "name":"Külah Cips",
+            "id": 5,
+            "name": "Külah Cips",
             "price": 10,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
+            "imageUrl": "https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
         },
         {
-            "id":5,
-            "name":"Külah Cips",
+            "id": 5,
+            "name": "Külah Cips",
             "price": 10,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
+            "imageUrl": "https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
         },
         {
-            "id":5,
-            "name":"Külah Cips",
+            "id": 5,
+            "name": "Külah Cips",
             "price": 10,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
+            "imageUrl": "https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
         },
         {
-            "id":5,
-            "name":"Külah Cips",
+            "id": 5,
+            "name": "Külah Cips",
             "price": 10,
-            "categoryId":1,
+            "categoryId": 1,
             "description": " Hasça Kuruyemiş",
-            "imageUrl":"https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
+            "imageUrl": "https://st3.myideasoft.com/idea/hv/32/myassets/products/349/kulah-cips-min.jpg?revision=1646654024"
         }
-        
     ],
-    "categories":[
+    "categories": [
         {
-            "id":1,
-            "name":"Kuruyemiş"
+            "id": 1,
+            "name": "Kuruyemiş"
         },
         {
-            "id":2,
-            "name":"Kahve"
+            "id": 2,
+            "name": "Kahve"
+        }
+    ],
+	"clients": [
+        {
+            "id": 1,
+            "name": "Anemon Hotel",
+            "imageUrl": "http://www.citlekci.com.tr/Uploads/UrunResimleri/buyuk/turk-kahvesi--kahve-8b75.png"
+        },
+        {
+            "id": 2,
+            "name": "Ottoman Coffee",
+            "imageUrl": "http://www.citlekci.com.tr/Uploads/UrunResimleri/buyuk/turk-kahvesi--kahve-8b75.png"
+        },
+        {
+            "id": 3,
+            "name": "Kahvehan Coffee",
+            "imageUrl":"https://i.dunya.com/storage/files/images/2021/05/05/findik-0235-qULf_cover.jpg"
+
+        },{
+            "id": 4,
+            "name": "Dedeman Hotel",
+            "imageUrl":"https://i.dunya.com/storage/files/images/2021/05/05/findik-0235-qULf_cover.jpg"
         }
     ]
 }

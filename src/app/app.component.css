@@ -52,20 +52,21 @@
 }
 
 .about .row .image img {
-    width: 80%;
+    width: 100%;
 }
 
 .about .row .content {
     /* width: auto; */
     flex: 1 1 45rem;
     padding: 2rem;
-    
+    text-align: center;
 }
 
 .about .row .content h3 {
     font-weight: bold;
     font-size: 2rem;
     color: rgb(64, 64, 64);
+    
 }
 
 .about .row .content p {
