@@ -1,4 +1,4 @@
-/* Footer */
+/* 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 h5{
     font-size: 1.25rem;
@@ -90,4 +90,17 @@ section .section-title {
         padding-bottom: 0px;
         margin-bottom: 10px;
     }
+} */
+
+
+*{ 
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+a:hover {
+    color: #eee;
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
 }

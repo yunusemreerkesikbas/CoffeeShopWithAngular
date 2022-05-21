@@ -9,13 +9,19 @@
     margin: 10px 20px;
     height: 300px;
     border: 2px solid red;
-
 }
-.d-flex{
+
+.productbox:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.d-flex {
     display: flex;
     justify-content: center;
-    
+
 }
+
 .productbox .heading h3 {
     text-align: center !important;
 }
@@ -138,5 +144,3 @@ main {
 .lh-tight {
     line-height: 1.25;
 }
-
-

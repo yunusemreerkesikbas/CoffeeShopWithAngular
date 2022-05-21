@@ -4,7 +4,10 @@
 
 /*  */
 
-
+*{
+    font-family: 'Mulish';
+  
+}
 
 .banner {
     position: relative;

@@ -108,7 +108,9 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/angular-scroll-animate/dist/angular-scroll-animate.js"
+            ]
           }
         }
       }

@@ -44,7 +44,10 @@ body {
 section {
     padding: 2rem 7%;
 }
-
+.container-fluid{
+    height: 100px;
+    padding-left: 1rem;
+}
 .navbar .navbar-expand-lg .navbar-light .bg-light{
     padding: 1rem;
 }
